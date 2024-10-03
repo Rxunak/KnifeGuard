@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Camera from "./components/Camera";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h2>I added a branching system</h2>
+      <Camera />
     </div>
   );
 }
